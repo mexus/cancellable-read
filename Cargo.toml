@@ -1,0 +1,11 @@
+[package]
+name = "async-stdio"
+version = "0.1.0"
+authors = ["mexus <gilaldpellaeon@gmail.com>"]
+
+[dependencies]
+futures = "*"
+tokio-core = "*"
+tokio-io = "*"
+tokio-signal = "*"
+tokio-stdin-stdout = "*"
